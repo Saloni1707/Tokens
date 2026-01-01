@@ -1,1 +1,44 @@
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Solana / Wallet files
+# ======================
+*.json
+*.key
+*.pem
+
+# ======================
+# Node.js
+# ======================
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Build outputs
+# ======================
+dist/
+build/
+.out/
+.next/
+
+# ======================
+# OS / Editor noise
+# ======================
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ======================
+# Misc
+# ======================
+coverage/
+.cache/
